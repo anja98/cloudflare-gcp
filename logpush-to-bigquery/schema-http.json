@@ -230,17 +230,17 @@
     "mode": "NULLABLE"
   },
   {
-    "name": "FirewallMatchesActions",
+    "name": "SecurityActions",
     "type": "STRING",
     "mode": "REPEATED"
   },
   {
-    "name": "FirewallMatchesRuleIDs",
+    "name": "SecurityRuleIDs",
     "type": "STRING",
     "mode": "REPEATED"
   },
   {
-    "name": "FirewallMatchesSources",
+    "name": "SecuritySources",
     "type": "STRING",
     "mode": "REPEATED"
   },
@@ -335,7 +335,7 @@
     "mode": "NULLABLE"
   },
   {
-    "name": "WAFAction",
+    "name": "SecurityAction",
     "type": "STRING",
     "mode": "NULLABLE"
   },
@@ -355,12 +355,12 @@
     "mode": "NULLABLE"
   },
   {
-    "name": "WAFRuleID",
+    "name": "SecurityRuleID",
     "type": "STRING",
     "mode": "NULLABLE"
   },
   {
-    "name": "WAFRuleMessage",
+    "name": "SecurityRuleDescription",
     "type": "STRING",
     "mode": "NULLABLE"
   },
